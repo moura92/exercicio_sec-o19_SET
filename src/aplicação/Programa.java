@@ -34,7 +34,7 @@ public class Programa {
 			int codigoc = sc.nextInt();
 			codigo.add(new Codigo(codigoc));
 		}
-	
+
 		System.out.println("Total de Estudantes: " + codigo.size());
 		sc.close();
 	}

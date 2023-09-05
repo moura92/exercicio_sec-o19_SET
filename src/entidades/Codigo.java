@@ -34,10 +34,4 @@ public class Codigo {
 		Codigo other = (Codigo) obj;
 		return Objects.equals(codigo, other.codigo);
 	}
-
-	@Override
-	public String toString() {
-		return "Codigo: " + codigo;
-	}
-
 }
