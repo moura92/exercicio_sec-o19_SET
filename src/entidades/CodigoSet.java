@@ -2,11 +2,11 @@ package entidades;
 
 import java.util.Objects;
 
-public class Codigo {
+public class CodigoSet {
 
 	private Integer codigo;
 
-	public Codigo(Integer codigo) {
+	public CodigoSet(Integer codigo) {
 		this.codigo = codigo;
 	}
 
@@ -31,7 +31,7 @@ public class Codigo {
 			return false;
 		if (getClass() != obj.getClass())
 			return false;
-		Codigo other = (Codigo) obj;
+		CodigoSet other = (CodigoSet) obj;
 		return Objects.equals(codigo, other.codigo);
 	}
 }
